@@ -1,0 +1,37 @@
+# Arquivos de compilação e saída
+node_modules/
+.build/
+out/
+
+# Arquivos de ambiente
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache do npm/yarn
+.npm
+yarn-error.log
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de build do Next.js
+/.next
+
+# Arquivos de compilação do TypeScript
+*.tsbuildinfo
+
+# Dependências de desenvolvimento
+**/coverage/
+**/node_modules/
+
+# Arquivos de build de testes
+**/test/**/coverage/
+**/test/**/reports/
